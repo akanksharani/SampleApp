@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView view = (TextView) findViewById(R.id.textView);
-        int i = 1, j = 2;
+        int i = 3, j = 2;
         view.setText("Sum = " + (i+j));
     }
 }
